@@ -1,0 +1,15 @@
+﻿@model KashiHomeFood.ViewModels.ViewMenuViewModel
+
+<h1>@Model.Menu.Name</h1>
+
+<ul>
+    @foreach (var foodMenu in Model.Items)
+    {
+        <li>@foodMenu.Food.Name</li>
+    }
+</ul>
+    @if (Model.Items.Count == 0)
+    {
+        <p><i> No menu items</i></p>
+    }
+    <p><a asp-controller="Menu" asp-action="AddItem" asp-route-id="@Model.Menu.ID">Add Item</a></p>

@@ -1,0 +1,14 @@
+﻿<h1>@ViewBag.title</h1>
+
+<form method="post">
+
+    @foreach (var food in ViewBag.foods)
+    {
+        <input type="checkbox" name="cheeseIds" id="@food.ID" value="@food.ID" />
+        <label for="@food.ID">@food.Name</label>
+
+        <br />
+    }
+
+    <input type="submit" value="CHECKOUT" />
+</form>

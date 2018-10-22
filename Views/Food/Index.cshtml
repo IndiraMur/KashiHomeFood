@@ -10,18 +10,18 @@
         <th>Price</th>
 
     </tr>
-    
+
 
     @foreach (var food in Model)
     {
-    <tr>
-        <td>@food.Name</td>
-        <td>@food.Description</td>
-        <td>@food.Price</td>
+        <tr>
+            <td>@food.Name</td>
+            <td>@food.Description</td>
+            <td>@food.Price</td>
 
-    </tr>
+        </tr>
     }
-    
+
 
 </table>
 
@@ -31,3 +31,4 @@
 }
 
 <p><a asp-controller="Food" asp-action="Add">Add Food </a></p>
+<p><a asp-controller="Food" asp-action="Remove">Remove Food </a></p>

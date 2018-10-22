@@ -12598,11 +12598,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Kartik\\lc101\\Liftoff\\Project Kashi\\KashiHomeFood\\KashiHomeFood\\KashiHomeFood.csproj",
+      "projectUniqueName": "C:\\Users\\Kartik\\lc101\\Liftoff\\project2\\Project Kashi\\KashiHomeFood\\KashiHomeFood\\KashiHomeFood.csproj",
       "projectName": "KashiHomeFood",
-      "projectPath": "C:\\Users\\Kartik\\lc101\\Liftoff\\Project Kashi\\KashiHomeFood\\KashiHomeFood\\KashiHomeFood.csproj",
+      "projectPath": "C:\\Users\\Kartik\\lc101\\Liftoff\\project2\\Project Kashi\\KashiHomeFood\\KashiHomeFood\\KashiHomeFood.csproj",
       "packagesPath": "C:\\Users\\Kartik\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Kartik\\lc101\\Liftoff\\Project Kashi\\KashiHomeFood\\KashiHomeFood\\obj\\",
+      "outputPath": "C:\\Users\\Kartik\\lc101\\Liftoff\\project2\\Project Kashi\\KashiHomeFood\\KashiHomeFood\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
